@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceTea", "IceTea.csproj", "{E3EE5CC7-D314-6926-02CE-5A50018AD1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceTea.Editor", "IceTea.Editor.csproj", "{19169D01-265C-BB9C-A52E-D9FE1328CCEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3EE5CC7-D314-6926-02CE-5A50018AD1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EE5CC7-D314-6926-02CE-5A50018AD1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EE5CC7-D314-6926-02CE-5A50018AD1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EE5CC7-D314-6926-02CE-5A50018AD1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19169D01-265C-BB9C-A52E-D9FE1328CCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19169D01-265C-BB9C-A52E-D9FE1328CCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19169D01-265C-BB9C-A52E-D9FE1328CCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19169D01-265C-BB9C-A52E-D9FE1328CCEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
