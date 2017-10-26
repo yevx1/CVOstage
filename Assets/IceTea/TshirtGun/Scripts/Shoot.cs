@@ -21,6 +21,11 @@ public class Shoot : MonoBehaviour
     //private bool isBulletFired;
     private bool isThereABullet;
     // Use this for initialization
+
+
+    public SoundPlayOneshot shotSound;
+
+
     void Start()
     {
         //gunManager = GameObject.Find("GunManager").GetComponent<GunManager>();
@@ -109,6 +114,10 @@ public class Shoot : MonoBehaviour
         rb.constraints = RigidbodyConstraints.FreezeRotation;
         rb.AddForce((direction2Shoot.transform.position - transform.position) * 10000);
         bulletShirt.GetComponent<TShirtInteractable>().isGunLoaded = false;
+        if (shotSound != null)
+        {
+            shotSound.Play();
+        }
         StartCoroutine(LongVibration(0.1f, 1));
         
 
