@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/IceTeaCircus1.unity
+- path: Assets/IceTeaCircus4.unity
   isLoaded: 1
   isActive: 1
